@@ -33,4 +33,7 @@ Tracking Explanation:
   color space can be used to convert to CMY color space, equalize histogram of certain channels, then use converted video to track
   object. 
   
+Test Files Included:
+  bball.mp4
+  
 NOTE: Some functions are hardcoded with certain parameters for the purpose of specific basketball trails such as set_data will change origin of pixel data from top left pixel to bottom left pixel as was needed for analysis. Also Color Space can be changed accordingly to get different results in tracking by changing which equalized histogram channels are merged into converted color video. 
